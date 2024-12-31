@@ -6,6 +6,10 @@ The Business Analytics Dashboard is a Streamlit application designed to visualiz
 It offers flexibility in data loading, allowing you to import data from a local MySQL database or a CSV file. 
 The application empowers users to gain insights into employee metrics like salary, department distribution, and more, 
 through various visualizations like charts, tables, and key performance indicators (KPIs).
+ 
+**Live 🔴**
+ : https://businessanalyticsdashboard.streamlit.app/
+
 
 ### Features
 
