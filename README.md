@@ -1,5 +1,5 @@
 # Business Analytics Dashboard
-
+![Box Plot](https://github.com/coder-akram-khan/Business_Analytics_Dashboard/blob/main/dash.png?raw=true)
 ## Description
 
 The Business Analytics Dashboard is a Streamlit application designed to visualize and analyze employee data. 
