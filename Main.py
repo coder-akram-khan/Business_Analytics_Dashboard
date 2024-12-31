@@ -138,6 +138,7 @@ def home_page(df):
         pie_chart = plot_pie_chart(df)
         st.plotly_chart(pie_chart, use_container_width=True)
 
+        st.markdown("### Employee Distribution Treemap")
         bar_chart = plot_bar_chart(df)
         st.plotly_chart(bar_chart, use_container_width=True)
 
@@ -159,7 +160,8 @@ def home_page(df):
 
 # --- MAIN FUNCTION ---
 def main():
-    """Main function to run the Streamlit app."""
+    st.title("Business Analytics Dashboard")
+    
     df = load_data()
     department, country, businessunit = sidebar_filters(df)
     df_selection = filter_data(df, department, country, businessunit)
